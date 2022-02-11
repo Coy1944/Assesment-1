@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+var gitDefinition  = ("git is a version control system that tracks changes to projects")
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+var gitHubDefinition = "GitHub is a website that your code and be stored, looked at, modified by other people"
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+var gitInitDefinition =("it inializes a local repository right i the folder you are working on")
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+var gitCloneDefinition =("points to existing repo and makes a copy in a new dirrectory in some other location")
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,8 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+var gitStatusDefinition = (" lets you know about the repo red is bad green is good")
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +53,8 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+var gitAddDefinition = ("it adds some files to be track. be sure to always do this")
+var gitAddCode = ("git add -a")
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -63,7 +65,8 @@
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
+var gitCommitDefinition =(" this will create a snapshot of the files you are tracking")
+var gitCommitCode = ("git commit -m "initial commit")
 
 
 //////////////////PROBLEM 8////////////////////
@@ -72,4 +75,4 @@
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+var gitPushDefinition = ("the will push the local repoository you are woking on and push it to a remote repository")
