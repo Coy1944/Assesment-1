@@ -18,7 +18,7 @@ colorCopy.push("Blue")
 
 const numbers = [1, 2, 3, 4, 5]
 
-var middleNums = numbers.slice(1, 3)
+var middleNums = numbers.slice(1, 4)
 
 
 //////////////////PROBLEM 4////////////////////
@@ -30,6 +30,21 @@ var middleNums = numbers.slice(1, 3)
   If the number is LESS than or EQUAL to 100, push 'small' as a string 
   to the answers array. 
 */
+
+
+// this is very confusing. if you want the numbers to be shown big or small, then the code below will work. if you want the big numbers to be shown the second code will work
+
+for (let i =0; i < bigOrSmallArray.length; i++)
+  if (bigOrSmallArray[i] <= 100) {
+      console.log("Small") 
+  
+  }else  {console.log("Big")
+  
+    }
+  
+console.log(answers)
+
+// this code is if you want be shown the numbers bigger than 100
 
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
